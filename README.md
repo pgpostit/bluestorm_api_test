@@ -9,6 +9,7 @@ API REST solicitada no processo seletivo da Bluestorm, para a vaga de desenvolve
 - [Executando Localmente](#executando-localmente)
 - [Endpoints e Exemplos de Requisição](#endpoints-e-exemplos-de-requisição)
 - [Documentação da API](#documentação-da-api)
+- [IMPORTANTE: observações](#importante-observações)
 
 ## Requisitos de Instalação
 
@@ -404,3 +405,8 @@ Para acessá-la, basta utilizar também o flask run na raiz do projeto, uma vez 
 ```bash
 flask run
 ```
+
+## IMPORTANTE: observações
+
+- O .flaskenv propositalmente foi enviado, uma vez que o intuito é um teste, portanto eu gostaria de deixar as configurações presentes. Também possuo ciêncai de que poderia ter criado um .env para o banco de dados, mas como é de uso comum entre eu e os avaliadores, mantive-o disponível.
+- Mantive o pharmacies propositalmente sem necessidade de autenticação, a partir dos seguintes critérios: 1) diferenciar a utilização da API com e sem autenticação e 2) escolhi especificamente este resource para ser acessado, pois simulando em uma lógica real, é menos sensível ID, cidade e nome de farmácias do que transações e pacientes.
